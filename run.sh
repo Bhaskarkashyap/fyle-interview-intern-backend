@@ -13,5 +13,9 @@ export FLASK_APP=core/server.py
 # flask db migrate -m "Initial migration." -d core/migrations/
 # flask db upgrade -d core/migrations/
 
-# Run server
+Run server
 gunicorn -c gunicorn_config.py core.server:app
+
+# for window
+waitress-serve --host=localhost --port=8080 core.server:app
+

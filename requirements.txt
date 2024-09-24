@@ -1,6 +1,9 @@
 alembic==1.7.1
+atomicwrites==1.4.1
 attrs==21.2.0
+cffi==1.17.1
 click==8.0.1
+colorama==0.4.6
 coverage==5.5
 Flask==2.0.1
 Flask-Alembic==2.0.1
@@ -21,11 +24,13 @@ marshmallow-sqlalchemy==0.26.1
 packaging==21.0
 pluggy==1.0.0
 py==1.10.0
+pycparser==2.22
 pyparsing==2.4.7
 pytest==6.2.5
 pytest-cov==2.12.1
 SQLAlchemy==1.4.23
 toml==0.10.2
+waitress==3.0.0
 Werkzeug==2.0.1
 zipp==3.5.0
 zope.event==4.5.0
